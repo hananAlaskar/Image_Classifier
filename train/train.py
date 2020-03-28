@@ -1,7 +1,7 @@
 
 from load_data import load_data
 from set_parameters_for_trining import set_parameters_for_trining
-
+from train_model import train
 
 
 def main():
@@ -11,6 +11,9 @@ def main():
 
     lr = 0.001   
     model,criterion,optimizer = set_parameters_for_trining(lr)
+
+    epochs = 5
+    model = train(model, trainloader, validloader, criterion, optimizer, epochs)
     
 
 # Call to main function to run the program
