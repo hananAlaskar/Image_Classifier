@@ -26,10 +26,10 @@ python3 train.py data_dir --learning_rate LEARNING_RATE --epochs EPOCHS --save_d
 ```
 ##### Example
 example for this specific parameters:
-data_dir  : "flowers_10"
-learning_rate : 0.0001
-epochs : 6
-save_dir : checkpoint.pth
+- data_dir  : "flowers_10"
+- learning_rate : 0.0001
+- epochs : 6
+- save_dir : checkpoint.pth
 ```
 python3 train.py flowers_10 --learning_rate 0.0001 --epochs 6 --save_dir checkpoint.pth
 ```
@@ -67,10 +67,10 @@ python3 predict.py image_path checkpoint --top_k TOP_K --category_names CATEGORY
 ```
 ##### Example
 example for this specific parameters:
-image_path  : "flowers_predict/image_06763.jpg"
-checkpoint : checkpoint.pth
-top k : 10
-category names : cat_to_name_10.json
+- image_path  : "flowers_predict/image_06763.jpg"
+- checkpoint : checkpoint.pth
+- top k : 10
+- category names : cat_to_name_10.json
 ```
 python3 predict.py flowers_predict/image_06763.jpg checkpoint.pth --top_k 10 --category_names cat_to_name_10.json 
 ```
