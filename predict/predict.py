@@ -17,7 +17,7 @@ def main():
     probs, classes_indexs = predict(image_path, model, top_k)
 
     file_name = in_arg.category_names
-    view_classify(probs[0].numpy(), classes_indexs[0].numpy(), model, file_name)
+    view_classify(probs[0].numpy(), classes_indexs[0].numpy(), model, file_name, image_path)
 
 
 if __name__ == "__main__":
