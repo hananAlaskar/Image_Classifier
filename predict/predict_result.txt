@@ -1,0 +1,16 @@
+Argument Info
+image_path : flowers_predict/image_06763.jpg
+checkpoint : /Users/Apple/Documents/python_IA/Image_Classifier/train/checkpoint.pth
+top k : 10
+category names : cat_to_name_10.json
+Predict Result
+('pink primrose', 0.99950004)
+('sweet pea', 0.00045578534)
+('canterbury bells', 2.4515823e-05)
+('moon orchid', 1.9176043e-05)
+('monkshood', 2.6036224e-07)
+('english marigold', 1.32129e-07)
+('globe thistle', 5.6247494e-08)
+('hard-leaved pocket orchid', 7.674287e-09)
+('tiger lily', 9.374542e-10)
+('bird of paradise', 4.8567556e-10)
