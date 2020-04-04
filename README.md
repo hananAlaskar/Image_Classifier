@@ -2,10 +2,10 @@
 
 Image Classifier App is a Command Line Application that build for AI Programming with Python Nanodegree Program that provided by udacity. The main feature of the app is to classifiy Image using pretrained model like vgg16.
 
-## Libaray 
-The libaray the has been used to develop this app.
+## Library 
+The library the has been used to develop this app.
 
-| Libaray | Link |
+| Library | Link |
 | ------ | ------ |
 | pytorch | https://pytorch.org/ |
 | matplotlib | https://matplotlib.org/ |
